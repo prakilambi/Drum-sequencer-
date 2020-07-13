@@ -1,7 +1,7 @@
 from tkinter import *
 
-def color_change(self,x,y):
-    self.btn[x][y].config(bg="red")
+def color_change(x,y):
+    btn[x][y].config(bg="red")
     print (x,y)
 
 
